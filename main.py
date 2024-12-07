@@ -7,7 +7,7 @@ def main(all_prophages_names, all_prophages_file_path, metadata_file_path):
     print("Starting execution of main method...")
 
     data_prophage_names = pd.read_csv(all_prophages_names)
-    data_prophage_tsv = pd.read_csv(all_prophages_file_path)
+    data_prophage_csv = pd.read_csv(all_prophages_file_path)
     data_metadata = pd.read_csv(metadata_file_path)
 
     result = []
