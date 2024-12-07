@@ -3,7 +3,7 @@ import pandas as pd
 
 
 class Prophage:
-    """
+    """ Constructor to store additional prophage information from PropagAtE
     def __init__(self, identifier, nt_length, start_nucleotide, end_nucleotide):
         self.identifier = identifier
         self.nt_length = nt_length
