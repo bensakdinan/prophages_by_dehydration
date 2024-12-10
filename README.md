@@ -31,3 +31,5 @@ Output:
 - The output file is a .csv file that contains every prophage (by row)
   - 3 columns, 'Mild', 'Moderate', 'Severe', that contain Python lists
     of any and all prophage:host read ratios at the given dehydration status
+    ![image](https://github.com/user-attachments/assets/1c844c2b-1ec1-4c0b-bc8c-5482b1b224cb)
+
