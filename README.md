@@ -26,6 +26,7 @@ Required command line input arguments:
     - 'Sample','Dehydration_Status'
 - output/csv/path.csv
   - Path to output file
+- Example call python prophages_by_dehydration.py all_prophages_names.txt all/prophages/file/path.csv metadata/file/path.csv output/csv/path.csv
 
 Output:
 - The output file is a .csv file that contains every prophage (by row)
