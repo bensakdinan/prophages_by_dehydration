@@ -1,11 +1,11 @@
 prophages_by_dehydration.py Description
 
-This script is designed to get any prophages present in any sample (from
+This script is designed to retrieve any prophages present in any sample (from
 an output of PropagAtE), and the corresponding prophage read:host 
 read depth ratios of that prophage in a given sample it is present in.
 This script was written to analyze data for my MSc project "Exploring how 
 phage predation, prophage induction, and antibiotic exposure inform 
-cholera disease severity".
+cholera disease severity" as part of my 2nd aim bioinformatic workflow
 
 This script is designed to work on output data from PropagAtE, a tool to identify
 actively replicating prophages (prophage induction).
@@ -13,8 +13,8 @@ actively replicating prophages (prophage induction).
     mSystems, 7 (2), e00084-22.
 
 Dependencies:
-- Pandas
-- Python
+- Pandas >= 0.24.2
+- Python >= 3
   - Was written with Python/3.11
 
 Required command line input arguments:
